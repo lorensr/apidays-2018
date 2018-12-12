@@ -1,0 +1,16 @@
+{
+  "name": "apidays-2018",
+  "version": "0.0.1",
+  "description": "GraphQL? It's the new REST ✨",
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx",
+    "deploy": "now",
+    "alias": "pbpaste | xargs -I % now alias % apidays"
+  },
+  "author": "Loren <loren@graphql.guide>",
+  "license": "MIT",
+  "dependencies": {
+    "mdx-deck": "^1.8.2"
+  }
+}
